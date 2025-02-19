@@ -175,6 +175,17 @@ function init() {
     timer.textContent = "Time: " + timeLeft + "s";
 }
 
+console.log("Initializing the quiz...");
+console.log("initCard element:", initCard);
+
 // Call init
-init();
+function init() {
+    console.log("Running init function...");
+    initCard.innerHTML = `
+        <p>Click Start button to start the timed quiz. A wrong answer will not deduct time from the timer.</p>
+        <button id="start" class="btn">Start</button>
+    `;
+    timer.textContent = "Time: " + timeLeft + "s";
+}
+
 
