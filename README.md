@@ -1,8 +1,11 @@
 Code Quiz 📚💻
+
 Description
+
 This is a JavaScript-based coding quiz that tests knowledge of JavaScript fundamentals. The quiz is timed, features multiple-choice questions, and allows users to save their high scores. It dynamically updates the UI using JavaScript, ensuring an interactive experience.
 
 Features
+
 ✅ Start the Quiz: Timer begins, and questions are displayed.
 ✅ Multiple-Choice Questions: Users select from four possible answers.
 ✅ Automatic Progression: Moves to the next question upon selection.
@@ -11,16 +14,21 @@ Features
 ✅ Responsive Design: Works on different screen sizes.
 
 Usage Instructions
+
 📌 How to Play
+
 Click the "Start" button.
 Answer each multiple-choice question.
 The quiz ends when all questions are answered or time runs out.
 Enter your initials to save your score.
 Click "View High Scores" to see past results.
+
 🎯 Rules
+
 Correct answers increase your score.
 The quiz progresses automatically after each answer.
 High scores are stored in local storage.
+
 Technologies Used
 🟢 HTML – Structure of the page
 🟠 CSS – Styling and layout
